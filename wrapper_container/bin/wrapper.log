@@ -1,0 +1,106 @@
+FATAL  | wrapper  | 2008/12/23 16:20:13 | Unable to open configuration file. J:\?
+FATAL  | wrapper  | 2008/12/23 16:22:10 | The argument '-r' is not a valid property name-value pair.
+FATAL  | wrapper  | 2008/12/23 16:22:24 | Unable to open configuration file. J:\NSIS\WebSYNCClient\wrapper_container\bin\config\wrapper.conf
+STATUS | wrapper  | 2008/12/23 16:22:34 | Dataview WebSYNC Client Background Service removed.
+ERROR  | wrapper  | 2008/12/23 16:22:39 | The WebSYNCClient service is not installed - The specified service does not exist as an installed service. (0x424)
+STATUS | wrapper  | 2008/12/23 16:22:55 | Dataview WebSYNC Client Background Service installed.
+ERROR  | wrapper  | 2008/12/23 16:22:57 | CreateService failed - The specified service already exists. (0x431)
+STATUS | wrapper  | 2008/12/23 16:23:29 | The Dataview WebSYNC Client Background Service Service is installed.
+STATUS | wrapper  | 2008/12/23 16:23:29 |   Start Type: Automatic
+STATUS | wrapper  | 2008/12/23 16:23:29 |   Interactive: No
+STATUS | wrapper  | 2008/12/23 16:23:29 |   Running: No
+STATUS | wrapper  | 2010/11/18 13:58:34 | --> Wrapper Started as Console
+STATUS | wrapper  | 2010/11/18 13:58:35 | Launching a JVM...
+INFO   | jvm 1    | 2010/11/18 13:58:37 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2010/11/18 13:58:37 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2010/11/18 13:58:37 | 
+INFO   | jvm 1    | 2010/11/18 13:58:37 | WrapperSimpleApp: Unable to locate the class nz.dataview.websyncclient.Client: java.lang.ClassNotFoundException: nz.dataview.websyncclient.Client
+INFO   | jvm 1    | 2010/11/18 13:58:37 | 
+INFO   | jvm 1    | 2010/11/18 13:58:37 | WrapperSimpleApp Usage:
+INFO   | jvm 1    | 2010/11/18 13:58:37 |   java org.tanukisoftware.wrapper.WrapperSimpleApp {app_class} [app_arguments]
+INFO   | jvm 1    | 2010/11/18 13:58:37 | 
+INFO   | jvm 1    | 2010/11/18 13:58:37 | Where:
+INFO   | jvm 1    | 2010/11/18 13:58:37 |   app_class:      The fully qualified class name of the application to run.
+INFO   | jvm 1    | 2010/11/18 13:58:37 |   app_arguments:  The arguments that would normally be passed to the
+INFO   | jvm 1    | 2010/11/18 13:58:37 |                   application.
+STATUS | wrapper  | 2010/11/18 13:58:38 | CTRL-C trapped.  Shutting down.
+STATUS | wrapper  | 2010/11/18 13:58:38 | <-- Wrapper Stopped
+STATUS | wrapper  | 2011/03/24 16:47:41 | Dataview WebSYNC Service removed.
+STATUS | wrapper  | 2011/03/24 16:47:42 | Dataview WebSYNC Service installed.
+STATUS | wrapper  | 2011/03/25 15:02:11 | --> Wrapper Started as Service
+STATUS | wrapper  | 2011/03/25 15:02:12 | Launching a JVM...
+INFO   | jvm 1    | 2011/03/25 15:02:38 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2011/03/25 15:02:38 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2011/03/25 15:02:38 | 
+INFO   | jvm 1    | 2011/03/25 15:02:38 | WrapperSimpleApp: Unable to locate the class nz.dataview.websyncclient.Client: java.lang.ClassNotFoundException: nz.dataview.websyncclient.Client
+INFO   | jvm 1    | 2011/03/25 15:02:38 | 
+INFO   | jvm 1    | 2011/03/25 15:02:38 | WrapperSimpleApp Usage:
+INFO   | jvm 1    | 2011/03/25 15:02:38 |   java org.tanukisoftware.wrapper.WrapperSimpleApp {app_class} [app_arguments]
+INFO   | jvm 1    | 2011/03/25 15:02:38 | 
+INFO   | jvm 1    | 2011/03/25 15:02:38 | Where:
+INFO   | jvm 1    | 2011/03/25 15:02:38 |   app_class:      The fully qualified class name of the application to run.
+INFO   | jvm 1    | 2011/03/25 15:02:38 |   app_arguments:  The arguments that would normally be passed to the
+INFO   | jvm 1    | 2011/03/25 15:02:38 |                   application.
+STATUS | wrapper  | 2011/03/25 15:02:40 | <-- Wrapper Stopped
+STATUS | wrapper  | 2011/04/06 15:44:08 | --> Wrapper Started as Service
+STATUS | wrapper  | 2011/04/06 15:44:08 | Launching a JVM...
+INFO   | jvm 1    | 2011/04/06 15:44:30 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2011/04/06 15:44:30 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2011/04/06 15:44:30 | 
+INFO   | jvm 1    | 2011/04/06 15:44:30 | WrapperSimpleApp: Unable to locate the class nz.dataview.websyncclient.Client: java.lang.ClassNotFoundException: nz.dataview.websyncclient.Client
+INFO   | jvm 1    | 2011/04/06 15:44:30 | 
+INFO   | jvm 1    | 2011/04/06 15:44:30 | WrapperSimpleApp Usage:
+INFO   | jvm 1    | 2011/04/06 15:44:30 |   java org.tanukisoftware.wrapper.WrapperSimpleApp {app_class} [app_arguments]
+INFO   | jvm 1    | 2011/04/06 15:44:30 | 
+INFO   | jvm 1    | 2011/04/06 15:44:30 | Where:
+INFO   | jvm 1    | 2011/04/06 15:44:30 |   app_class:      The fully qualified class name of the application to run.
+INFO   | jvm 1    | 2011/04/06 15:44:30 |   app_arguments:  The arguments that would normally be passed to the
+INFO   | jvm 1    | 2011/04/06 15:44:30 |                   application.
+STATUS | wrapper  | 2011/04/06 15:44:33 | <-- Wrapper Stopped
+STATUS | wrapper  | 2011/04/15 09:26:52 | --> Wrapper Started as Service
+STATUS | wrapper  | 2011/04/15 09:26:52 | Launching a JVM...
+INFO   | jvm 1    | 2011/04/15 09:27:20 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2011/04/15 09:27:20 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2011/04/15 09:27:20 | 
+INFO   | jvm 1    | 2011/04/15 09:27:21 | WrapperSimpleApp: Unable to locate the class nz.dataview.websyncclient.Client: java.lang.ClassNotFoundException: nz.dataview.websyncclient.Client
+INFO   | jvm 1    | 2011/04/15 09:27:21 | 
+INFO   | jvm 1    | 2011/04/15 09:27:21 | WrapperSimpleApp Usage:
+INFO   | jvm 1    | 2011/04/15 09:27:21 |   java org.tanukisoftware.wrapper.WrapperSimpleApp {app_class} [app_arguments]
+INFO   | jvm 1    | 2011/04/15 09:27:21 | 
+INFO   | jvm 1    | 2011/04/15 09:27:21 | Where:
+INFO   | jvm 1    | 2011/04/15 09:27:21 |   app_class:      The fully qualified class name of the application to run.
+INFO   | jvm 1    | 2011/04/15 09:27:21 |   app_arguments:  The arguments that would normally be passed to the
+INFO   | jvm 1    | 2011/04/15 09:27:21 |                   application.
+STATUS | wrapper  | 2011/04/15 09:27:23 | <-- Wrapper Stopped
+STATUS | wrapper  | 2011/05/14 10:08:50 | --> Wrapper Started as Service
+STATUS | wrapper  | 2011/05/14 10:08:51 | Launching a JVM...
+INFO   | jvm 1    | 2011/05/14 10:09:08 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2011/05/14 10:09:08 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2011/05/14 10:09:08 | 
+INFO   | jvm 1    | 2011/05/14 10:09:08 | WrapperSimpleApp: Unable to locate the class nz.dataview.websyncclient.Client: java.lang.ClassNotFoundException: nz.dataview.websyncclient.Client
+INFO   | jvm 1    | 2011/05/14 10:09:08 | 
+INFO   | jvm 1    | 2011/05/14 10:09:08 | WrapperSimpleApp Usage:
+INFO   | jvm 1    | 2011/05/14 10:09:08 |   java org.tanukisoftware.wrapper.WrapperSimpleApp {app_class} [app_arguments]
+INFO   | jvm 1    | 2011/05/14 10:09:08 | 
+INFO   | jvm 1    | 2011/05/14 10:09:08 | Where:
+INFO   | jvm 1    | 2011/05/14 10:09:08 |   app_class:      The fully qualified class name of the application to run.
+INFO   | jvm 1    | 2011/05/14 10:09:08 |   app_arguments:  The arguments that would normally be passed to the
+INFO   | jvm 1    | 2011/05/14 10:09:08 |                   application.
+STATUS | wrapper  | 2011/05/14 10:09:11 | <-- Wrapper Stopped
+STATUS | wrapper  | 2011/05/15 15:35:04 | --> Wrapper Started as Service
+STATUS | wrapper  | 2011/05/15 15:35:04 | Launching a JVM...
+INFO   | jvm 1    | 2011/05/15 15:35:18 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2011/05/15 15:35:18 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2011/05/15 15:35:18 | 
+INFO   | jvm 1    | 2011/05/15 15:35:18 | WrapperSimpleApp: Unable to locate the class nz.dataview.websyncclient.Client: java.lang.ClassNotFoundException: nz.dataview.websyncclient.Client
+INFO   | jvm 1    | 2011/05/15 15:35:18 | 
+INFO   | jvm 1    | 2011/05/15 15:35:18 | WrapperSimpleApp Usage:
+INFO   | jvm 1    | 2011/05/15 15:35:18 |   java org.tanukisoftware.wrapper.WrapperSimpleApp {app_class} [app_arguments]
+INFO   | jvm 1    | 2011/05/15 15:35:18 | 
+INFO   | jvm 1    | 2011/05/15 15:35:18 | Where:
+INFO   | jvm 1    | 2011/05/15 15:35:18 |   app_class:      The fully qualified class name of the application to run.
+INFO   | jvm 1    | 2011/05/15 15:35:18 |   app_arguments:  The arguments that would normally be passed to the
+INFO   | jvm 1    | 2011/05/15 15:35:18 |                   application.
+STATUS | wrapper  | 2011/05/15 15:35:21 | <-- Wrapper Stopped
+STATUS | wrapper  | 2011/05/16 16:30:16 | Dataview WebSYNC Service removed.
+STATUS | wrapper  | 2011/05/16 16:30:17 | Dataview WebSYNC Service installed.
