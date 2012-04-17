@@ -29,7 +29,7 @@ BrandingText "$progName Setup"
 !define MUI_ICON "${NSISDIR}\Contrib\Graphics\Icons\win-install.ico"
 !define MUI_UNICON "${NSISDIR}\Contrib\Graphics\Icons\win-uninstall.ico"
 !define MUI_HEADERIMAGE
-!define MUI_HEADERIMAGE_BITMAP "J:\NSIS\test\test2\websync.bmp"
+!define MUI_HEADERIMAGE_BITMAP "websync.bmp"
 !define MUI_ABORTWARNING
 
 # Define settings for the welcome page
