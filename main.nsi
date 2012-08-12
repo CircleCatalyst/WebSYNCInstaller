@@ -10,7 +10,7 @@ Var javaInstallationMsg
 Var startMenuFolder
 
 Name $progName
-OutFile "WebSYNCClient-2_1_0.exe"
+OutFile "WebSYNCClient-2_1_1.exe"
 
 #XPStyle on
 
@@ -51,8 +51,8 @@ BrandingText "$progName Setup"
 !define MUI_FINISHPAGE_TEXT "$progName has been installed on your computer successfully!"
 !define MUI_FINISHPAGE_BUTTON "Finish"
 #!define MUI_FINISHPAGE_SHOWREADME_NOTCHECKED
-!define MUI_FINISHPAGE_SHOWREADME_TEXT "View setup instructions online (strongly recommended)"
-!define MUI_FINISHPAGE_SHOWREADME "http://www.knowledge.net.nz/websync/setup.php"
+#!define MUI_FINISHPAGE_SHOWREADME_TEXT "View setup instructions online (strongly recommended)"
+#!define MUI_FINISHPAGE_SHOWREADME "http://knowledge.net.nz/websync/setup.php"
 #!define MUI_FINISHPAGE_RUN '$javaHome\bin\javaw.exe -Dnz.dataview.websyncclientgui.sysconf_file="$INSTDIR\config\system.properties" -jar "$INSTDIR\gui\WebSYNCClientGUI.jar"'
 !define MUI_FINISHPAGE_RUN_TEXT "Run WebSYNC"
 !define MUI_FINISHPAGE_RUN_NOTCHECKED
