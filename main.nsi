@@ -10,7 +10,7 @@ Var javaInstallationMsg
 Var startMenuFolder
 
 Name $progName
-OutFile "WebSYNCClient-2_1_1.exe"
+OutFile "WebSYNCClient-2_1_2.exe"
 
 #XPStyle on
 
@@ -151,12 +151,12 @@ FunctionEnd
 
 # Make sure system meets requirements before starting.
 Function .onInit
-	StrCpy $progName "Dataview WebSYNC"
+	StrCpy $progName "WebSYNC"
 	Call checkSysReq
 FunctionEnd 
 
 Function un.onInit
-	StrCpy $progName "Dataview WebSYNC"
+	StrCpy $progName "WebSYNC"
 FunctionEnd
  
  # ====================================================
@@ -394,6 +394,9 @@ Section "Finalise"
 
 	# Create shortcuts
 	DetailPrint "Creating shortcuts..."
+	ifFileExists "$SMPROGRAMS\Dataview WebSYNC\*.*" 0 +2
+	 RMDir /r /REBOOTOK "$SMPROGRAMS\Dataview WebSYNC"
+	 
 	${CreateDirectory} "$SMPROGRAMS\$startMenuFolder"
 	#FileOpen $0 "$INSTDIR\monitor.bat" "w"
 	#FileWrite $0 '$javaHome\bin\javaw.exe -Dnz.dataview.websyncclientgui.sysconf_file="$INSTDIR\config\system.properties" -jar "$INSTDIR\gui\WebSYNCClientGUI.jar"'
