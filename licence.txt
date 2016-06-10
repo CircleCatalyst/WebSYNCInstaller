@@ -1,4 +1,4 @@
-WebSYNC Client version 2.1.2 Copyright 2014 CIRCLE Australia Pty Ltd
+WebSYNC Client version 2.1.2 Copyright 2014 AptApp Ltd
 
 This program is free software: you can redistribute it and/or modify 
 it under the terms of the GNU General Public License as published by 
